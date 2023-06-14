@@ -1,0 +1,297 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.btn{
+    font-weight: 600;
+}
+/* slider section */
+.slider{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 9;
+    margin-top: 68px;
+}
+.slider::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: -1;
+}
+.slidercaption h4 {
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .slidercaption h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 37px;
+  }
+.slidercaption .form-control {
+    outline: blue;
+      outline-style: none;
+    outline-style: solid;
+    padding: 14px 20px;
+  }
+  .slidercaption .form-control:focus{
+      box-shadow: #6278df 5px 5px 10px 5px;
+  }
+  .slidercaption .btn {
+    padding: 14px;
+    background-color: green;
+    border-radius: 8px;
+  }
+  .slidercaption .btn:hover{
+      background-color: white;
+      color: rgba(0, 0, 255, 0.938);
+      box-shadow: #6279df52 5px 0px 10px 5px;
+      transition: .60s;
+      text-shadow: #6279df96 5px 0 5px;
+  }
+/* header style */
+.myheader .navbar-brand {
+    font-size: 28px;
+    font-weight: 500;
+    
+  }
+  .myheader{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 99;
+      width: 100%;
+      background-color: white;
+  }
+.myheader .navbar-brand span i {
+    font-size: 40px;
+    display: inline-block;
+    background-color: #6278df;
+    padding: 2px 14px;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    top: 6px;
+    right: -4px;
+  }
+  /*header section 2*/
+  .number .number-counter h1{
+      font-size: 50px;
+  }
+  .number .nimber-counter p{}
+  /* anout section */
+  .about{
+      background: #f6f8ff;
+  }
+  .about .row h2 {
+    margin-top: 98px;
+    margin-bottom: 30px;
+    font-size: 43px;
+    font-weight: 500;
+  }
+  .about .row p {
+    font-size: -3.8rem;
+    line-height: 2rem;
+  }
+  .newdiv .left-image img{
+    height: 16rem;
+    border-radius: 5px;
+  }
+  .newdiv .left-image{
+     
+  }
+  
+  .newdiv img{
+      max-width: 100%;
+      
+  }
+  .newdivitem{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+  }
+  .newdiv .left-text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 56px;
+    margin-bottom: 10px;
+  }
+  .newdiv .left-text p {
+    font-size: 17px;
+    width: 226px;
+  }
+  .left-img-sec{
+    overflow: hidden;
+   
+  }
+  .left-img-sec img{
+    
+    height: 250px;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+  }
+  .featureitem {
+    height: 250px;
+    box-shadow: 2.5px 4.3px 30px 0 #b6c5ff;
+  }
+  .left-img-sec {
+    width: 40%;
+    border-radius: 5px 0 5px 0;
+  }
+  .left-img-sec .image-right {
+    width: 250px;
+  }
+  
+  .left-text-sec{
+    width: 60%;
+    padding: 20px;
+  }
+  .left-text-sec h3 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .left-text-sec p {
+    font-size: 15px;
+    color: #7c7c7c;
+  }
+  .look-text h3 {
+    font-size: 59px;
+    font-weight: 400;
+  }
+  .look-image img{
+    max-width: 100%;
+  }
+  .look-image a{
+    position: relative;
+    display: block;
+  }
+  .look-image a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #6279dfa2;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: .50s;
+  }
+  .look-image:hover a::after{
+    visibility: visible;
+    opacity: 1;
+  }
+  .start{
+    background-color: #F7F9FF;
+    margin-top: 150px;
+  }
+  .start h3 {
+    font-size: 55px;
+    font-weight: 400;
+  }
+  .start p {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .pricing-table{
+    box-shadow: 2.5px 4.3px 30px 0 #b6c5ff;
+    padding: 40px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .pricing-table h3{
+    font-size: 40px;
+  }
+  .pricing-table p{}
+  .pricing-table ul {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  .pricing-table ul li {
+    font-size: 23px;
+    margin-bottom: 33px;
+    font-weight: 300;
+  }
+  .pricing-table ul li span {
+    font-size: 35px;
+    margin-right: 20px;
+    margin-left: -19px;
+  }
+  .pricing-btn{
+    box-shadow: 2.5px 4.3px 30px 0 #b6c5ffad;
+  }
+  .pricing-btn a {
+    padding: 10px 52px;
+    
+  }
+  .testimonial-item{}
+  .testimonial-item h4 {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 38px;
+  }
+  .testimonial-item h3 {
+    font-size: 47px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .testimonial-item h5 {
+    text-align: left;
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+  }
+  .testimonial-item span {
+    font-size: 116px;
+    opacity: .099;
+  }
+  .testimonial-item .lorem {
+    width: 629px;
+    text-align: center;
+    margin: auto;
+  }
+  .another-info {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    
+  }
+  .testimonial-item p{
+    text-align: left;
+  }
+  .testimonial-item img {
+    width: 76px;
+    margin: auto;
+    margin-right: 20px;
+  }
+  .about{
+    background: #c3f8f825;
+    margin-top: 100px;
+    padding: 5px 0;
+  }
+  .about .row h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 400;
+  }
+  .about-text p {
+    width: 568px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  /* ABOUT SECTION */
+  .about-item{}
+  .about-item .card{
+    margin-top: 50px;
+   }
+  .about-item .card img {
+    width: 115px;
+    margin-top: -63px;
+    margin-left: 21px;
+  }
